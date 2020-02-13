@@ -25,12 +25,12 @@ import os
 
 # Print the current process ID
 # YOUR CODE HERE
-print("The current process ID " + str(os.getpid()))
+print("The current process ID: " + str(os.getpid()))
 
 # Print the current working directory (cwd):
 # YOUR CODE HERE
-print("The current working directory is " + os.getcwd())
+print("The current working directory is: " + os.getcwd())
 
 # Print out your machine's login name
 # YOUR CODE HERE
-print("This machine's login name is " + os.getlogin())
+print("This machine's login name is: " + os.getlogin())
